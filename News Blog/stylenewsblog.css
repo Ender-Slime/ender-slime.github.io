@@ -12,12 +12,12 @@ html{
 
         @font-face {
           font-family: 'Saiba';
-          src: url(SAIBA-45.otf);
+          src: url(../fonts/SAIBA-45.otf);
       }
       
       @font-face {
           font-family: 'Glasgow';
-          src: url(Not\ Jam\ Glasgow\ 16.ttf);
+          src: url(../fonts/Not\ Jam\ Glasgow\ 16.ttf);
 
           
       }

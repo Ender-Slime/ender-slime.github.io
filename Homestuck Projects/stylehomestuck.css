@@ -13,7 +13,7 @@
         }
         @font-face {
         font-family: 'Saiba';
-         src: url(SAIBA-45.otf);
+         src: url(../fonts/SAIBA-45.otf);
         }
         h1, h2, h3, h4 { 
        font-family: 'Saiba';
@@ -21,7 +21,7 @@
 
         @font-face {
        font-family: 'Glasgow';
-         src: url(Not\ Jam\ Glasgow\ 16.ttf);
+         src: url(../fonts/Not\ Jam\ Glasgow\ 16.ttf);
         }
         p { 
        font-family: 'Glasgow'; 
