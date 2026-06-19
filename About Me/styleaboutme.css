@@ -1,0 +1,512 @@
+
+  html{
+    margin: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+        body {
+          background-image: url('ASSETSABOUTME/aboutmebackgroundempty.png');
+          background-size: cover;
+          aspect-ratio: 89/1;
+          margin: auto;
+        }
+
+a {
+  color: inherit;
+}
+
+@font-face {
+    font-family: 'Saiba';
+    src: url(SAIBA-45.otf);
+}
+
+@font-face {
+    font-family: 'Glasgow';
+    src: url(Not\ Jam\ Glasgow\ 16.ttf);
+}
+h1, h2, h3, h4 { 
+    font-family: 'Saiba';
+}
+p { 
+    font-family: 'Glasgow'; 
+}
+
+.navigation {
+  z-index: 44;
+  background-color:rgb(188, 217, 191); 
+  border: 2px solid rgb(194, 84, 194);
+
+  display:inline-block;
+  padding: 0.5%;
+  position: sticky;
+  top: 0;
+   left: 45%;
+}
+
+div.enderslime {
+          animation-name: pulse;
+          animation-name: floating;
+          animation-iteration-count: infinite;
+          animation-duration: 3s;
+          animation-timing-function: ease-in-out;
+          scale: 60%;
+          position: absolute;
+          top: -20%;
+          left: 25%;
+          overflow: hidden;
+        }
+       @keyframes floating {
+          from {
+            transform: translate(0,0px)
+          }
+
+          65% {
+            transform: translate(0,15px)
+          }
+
+          to {
+            transform: translate(0,0px)
+          }
+    }
+
+.header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url("./ASSETSABOUTME/titlepanel.png");
+  background-position: bottom right,  top left;
+  background-repeat: no-repeat;
+  width: 620px;
+  aspect-ratio: 5 / 2.9;
+}
+
+.header .cd {
+
+  position: absolute;
+  top: 2.5%;
+  left: 2.5%;
+  width: 35%;
+  height: 60%;
+  scale: 120%;
+  background-image: url("./ASSETSABOUTME/CDnormal.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 7; 
+  pointer-events: none; 
+
+}
+
+.header .homelink {
+ position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 35%;
+  height: 50%;
+    z-index: 7;
+}
+
+.header .homelink:hover ~ .cd {
+  background-image: url("./ASSETSABOUTME/CDhover.png");
+}
+
+.header .titletext {
+  position: absolute;
+  top: 33%;
+  height: 55%;
+  right: 8%;
+  width: 72%;
+
+  font-family: "Saiba";
+  font-size: 5em;
+  color: white;
+  text-align: center;
+  text-shadow: 5px 5px 5px #000000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightphone {
+  position: absolute;
+  left: 65%;
+  top: 3%;
+  background-image: url("./ASSETSABOUTME/aboutmetextupright.png");
+  background-position: bottom right,  top left;
+  background-repeat: no-repeat;
+  width: 650px;
+  aspect-ratio: 7 / 8;
+}
+
+.rightphone .text1 {
+  position: absolute;
+  top: 36%;
+  height: 35%;
+  right: 35%;
+  width: 55%;
+  
+  font-family: "Glasgow";
+  font-size: 1.4em;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  line-height: 88%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.leftphone {
+  position: absolute;
+  left: 2%;
+  top: 40%;
+  background-image: url("./ASSETSABOUTME/aboutmetextreverse.png");
+  background-position: bottom right,  top left;
+  background-repeat: no-repeat;
+  width: 620px;
+  aspect-ratio: 7 / 8;
+}
+
+.leftphone .text2 {
+  position: absolute;
+  top: 24%;
+  height: 40%;
+  right: 8%;
+  width: 60%;
+  
+  font-family: "Glasgow";
+  font-size: 1.4em;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  line-height: 88%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.leftphone .pixelslime1 {
+
+  position:absolute;
+  top: 5%;
+  left: 50%;
+  scale: 150%;
+}
+
+
+div.osirah {
+  position: absolute;
+  top: 60%;
+  left: 35%;
+  animation-name: pulse;
+  animation-name: floating;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  
+}
+@keyframes floating {
+          from {
+            transform: translate(0,15px)
+          }
+
+          65% {
+            transform: translate(0,0px)
+          }
+
+          to {
+            transform: translate(0,15px)
+          }
+        }
+div.dirkjane {
+  position: absolute;
+  scale: 100%;
+  top: 60%;
+  left: 54%;
+  animation-name: pulse;
+  animation-name: floating;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+}
+@keyframes floating {
+          from {
+            transform: translate(0,15px)
+          }
+
+          65% {
+            transform: translate(0,0px)
+          }
+
+          to {
+            transform: translate(0,15px)
+          }
+        }
+div.nialah {
+  position: absolute;
+  top: 60%;
+  left: 77%;
+  animation-name: pulse;
+  animation-name: floating;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+}
+@keyframes floating {
+          from {
+            transform: translate(0,15px)
+          }
+
+          65% {
+            transform: translate(0,0px)
+          }
+
+          to {
+            transform: translate(0,15px)
+          }
+        }
+
+
+
+
+.pixelslime3 {
+  position: absolute;
+  scale: 300%;
+   transform: scaleX(-1);
+  top: 125%;
+  right: 10%;
+}
+
+.pixelslime3 .romeocredit {
+font-family: "Glasgow";
+  font-size: 6px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  transform: scaleX(-1);
+  line-height: 88%;
+
+}
+
+
+
+
+.socials {
+  position: absolute;
+  left: 25%;
+  top: 125%;
+  background-image: url("./ASSETSABOUTME/socialbar.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1000px;
+  aspect-ratio: 9 / 2;
+  z-index: 6;
+}
+
+.socials .bar {
+  position: absolute;
+  inset: 0;
+  background-image: url("./ASSETSABOUTME/socialbar.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  pointer-events: none;
+}
+
+.socials .button1 {
+padding: 7%;
+border-radius: 50%;
+position: absolute;
+left: 14.5%;
+top: 19%;
+text-decoration: none;
+box-sizing: border-box;
+  z-index: 2;
+}
+
+.socials .button1:hover ~ .bar {
+  background-image: url("./ASSETSABOUTME/socialtumblr.png");
+}
+
+.socials .button2 {
+padding: 4%;
+border-radius: 50%;
+position: absolute;
+left: 31.5%;
+top: 35%;
+text-decoration: none;
+box-sizing: border-box;
+  z-index: 2;
+}
+
+.socials .button2:hover ~ .bar {
+  background-image: url("./ASSETSABOUTME/socialkofi.png");
+}
+
+.socials .button3 {
+padding: 7%;
+border-radius: 50%;
+position: absolute;
+left: 43%;
+top: 19%;
+text-decoration: none;
+box-sizing: border-box;
+  z-index: 2;
+}
+
+.socials .button3:hover ~ .bar {
+  background-image: url("./ASSETSABOUTME/socialbsky.png");
+}
+
+.socials .button4 {
+padding: 4%;
+border-radius: 50%;
+position: absolute;
+left: 60.7%;
+top: 34%;
+text-decoration: none;
+box-sizing: border-box;
+  z-index: 2;
+}
+
+.socials .button4:hover ~ .bar {
+  background-image: url("./ASSETSABOUTME/socialbigcartel.png");
+}
+
+.socials .button5 {
+padding: 7%;
+border-radius: 50%;
+position: absolute;
+left: 72%;
+top: 19%;
+text-decoration: none;
+box-sizing: border-box;
+  z-index: 2;
+}
+
+.socials .button5:hover ~ .bar {
+  background-image: url("./ASSETSABOUTME/socialyoutube.png");
+}
+
+.socials .pixelslime2 {
+
+  position: absolute;
+  scale: 200%;
+  top: -60%;
+  left: 10%;
+}
+
+.openphone {
+
+  position: absolute;
+  left: 4%;
+  top: 105%;
+  background-image: url("./ASSETSABOUTME/bigphone.png");
+  background-position: bottom right,  top left;
+  background-repeat: no-repeat;
+  width: 1000px;
+  aspect-ratio: 2 / 2;
+}
+
+
+.openphone .text3 {
+  position: absolute;
+  top: 16%;
+  left: 8%;
+  height: 25%;
+  width: 20%;
+
+  font-family: "Glasgow";
+  font-size: 1.3em;
+  color: rgb(255, 255, 255);
+  text-shadow: #000000 2px 2px 2px;
+  text-align: center;
+  line-height: 90%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.openphone .text4 {
+  position: absolute;
+  top: 52%;
+  right: 8%;
+  height: 30%;
+  width: 20%;
+
+  font-family: "Glasgow";
+  font-size: 1.2em;
+  color: rgb(255, 255, 255);
+  text-shadow: #000000 2px 2px 2px;
+  text-align: center;
+  line-height: 90%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.finalphone {
+  position: absolute;
+  right: 7%;
+  top: 160%;
+  scale: 125%;
+  background-image: url("./ASSETSABOUTME/smallphone.png");
+  background-position: bottom right,  top left;
+  background-repeat: no-repeat;
+  width: 600px;
+  aspect-ratio: 5 / 2.9;
+}
+
+.finalphone .text5 {
+  position: absolute;
+  top: 22%;
+  left: 25%;
+  height: 50%;
+  width: 25%;
+
+  font-family: "Glasgow";
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+  text-shadow: #000000 2px 2px 2px;
+  text-align: center;
+  line-height: 90%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.finalphone .emailtext {
+  position: absolute;
+  top: 68%;
+  left: 25%;
+  height: 10%;
+  width: 25%;
+
+  font-family: "Glasgow";
+  font-size: 1rem;
+  color: rgb(191, 247, 139);
+  text-shadow: #000000 2px 2px 2px;
+  text-align: center;
+  line-height: 90%;
+  
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button6 {
+  position: absolute;
+  top: 175%;
+  left: 81%;
+  border-radius: 70%;
+  padding: 2%;
+  background-color:transparent;
+}

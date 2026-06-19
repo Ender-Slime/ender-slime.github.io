@@ -1,0 +1,471 @@
+html{
+    margin: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+        body {
+          background-image: url('https://file.garden/YtMQu7utTE5LCcaH/neocities/about%20me/aboutmebackgroundempty.png');
+          background-size: cover;
+          aspect-ratio: 0.89/1;
+          width: 1920px;
+          height: 2160px;
+          margin: auto;
+        }
+      
+
+        @font-face {
+    font-family: 'Saiba';
+    src: url(SAIBA-45.otf);
+}
+
+@font-face {
+    font-family: 'Glasgow';
+    src: url(Not\ Jam\ Glasgow\ 16.ttf);
+}
+h1, h2, h3, h4 { 
+    font-family: 'Saiba';
+}
+p { 
+    font-family: 'Glasgow'; 
+}
+
+.header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url("./ASSETSPORTFOLIO/titlepanel.png");
+  background-position: bottom right,  top left;
+  background-repeat: no-repeat;
+  width: 620px;
+  scale: 80%;
+  aspect-ratio: 5 / 2.9;
+}
+
+.header .cd {
+
+  position: absolute;
+  top: 2.5%;
+  left: 2.5%;
+  width: 35%;
+  height: 60%;
+  scale: 120%;
+  background-image: url("./ASSETSPORTFOLIO/CDnormal.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 7; 
+  pointer-events: none; 
+
+}
+
+.header .homelink {
+ position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 35%;
+  height: 50%;
+    z-index: 7;
+}
+
+.header .homelink:hover ~ .cd {
+  background-image: url("./ASSETSPORTFOLIO/CDhover.png");
+}
+
+.header .titletext {
+  position: absolute;
+  top: 33%;
+  height: 55%;
+  right: 8%;
+  width: 72%;
+
+  font-family: "Saiba";
+  font-size: 4.5em;
+  color: white;
+  text-align: center;
+  text-shadow: 5px 5px 5px #000000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.remote {
+  position: absolute;
+  background-image: url("ASSETSPORTFOLIO/tvremote.png");
+  width: 747px;
+  height: 275px;
+  top: 2%;
+  left: 30%;
+}
+
+.remote .remotetext {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  width: 550px;
+  font-family: "Glasgow";
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  line-height: 88%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paintimage {
+  position: absolute;
+  background-image: url("ASSETSPORTFOLIO/painticon.png");
+  top: -25%;
+  left: 60%;
+  width: 791px;
+  height: 807px;
+  scale: 35%;
+}
+
+.paintimage .secretbutton {
+padding: 20%;
+border-radius: 50%;
+position: absolute;
+left: 14.5%;
+top: 19%;
+text-decoration: none;
+box-sizing: border-box;
+  z-index: 2;
+
+}
+
+.tvarray {
+
+  position: absolute;
+  background-image: url("ASSETSPORTFOLIO/portfoliospread.png");
+  width: 1619px;
+  height: 1828px;
+  top: 35%;
+  left: 8%
+}  
+
+.tvarray .button1 {
+padding: 7%;
+border-radius: 20%;
+position: absolute;
+left: 7%;
+top: 3%;
+text-decoration: none;
+box-sizing: border-box;
+  z-index: 2;
+
+
+}
+
+.tvarray .button2 {
+padding: 7%;
+border-radius: 20%;
+position: absolute;
+left: 29%;
+top: 3%;
+text-decoration: none;
+box-sizing: border-box;
+  z-index: 2;
+
+
+}
+
+.tvarray .button3 {
+padding: 7%;
+border-radius: 20%;
+position: absolute;
+left: 50%;
+top: 3%;
+text-decoration: none;
+box-sizing: border-box;
+  z-index: 2;
+
+
+}
+
+.tvarray .button4 {
+padding: 7%;
+border-radius: 20%;
+position: absolute;
+left: 72%;
+top: 3%;
+text-decoration: none;
+box-sizing: border-box;
+  z-index: 2;
+  
+
+}
+
+.tvarray .button5 {
+padding: 7%;
+border-radius: 20%;
+position: absolute;
+left: 11%;
+top: 20%;
+text-decoration: none;
+box-sizing: border-box;
+  z-index: 2;
+
+
+}
+
+.tvarray .button6 {
+padding: 7%;
+border-radius: 20%;
+position: absolute;
+left: 35%;
+top: 20%;
+text-decoration: none;
+box-sizing: border-box;
+  z-index: 2;
+
+
+}
+
+.tvarray .button7 {
+padding: 7%;
+border-radius: 20%;
+position: absolute;
+left: 54%;
+top: 20%;
+text-decoration: none;
+box-sizing: border-box;
+  z-index: 2;
+
+
+}
+
+.tvarray .button8 {
+padding: 7%;
+border-radius: 20%;
+position: absolute;
+left: 78%;
+top: 20%;
+text-decoration: none;
+box-sizing: border-box;
+  z-index: 2;
+
+
+}
+
+.tvarray .button9 {
+padding: 7%;
+border-radius: 20%;
+position: absolute;
+left: 6%;
+top: 36%;
+text-decoration: none;
+box-sizing: border-box;
+  z-index: 2;
+
+
+}
+
+.tvarray .button10 {
+padding: 7%;
+border-radius: 20%;
+position: absolute;
+left: 30%;
+top: 36%;
+text-decoration: none;
+box-sizing: border-box;
+  z-index: 2;
+
+
+}
+
+.tvarray .button11 {
+padding: 7%;
+border-radius: 20%;
+position: absolute;
+left: 52%;
+top: 36%;
+text-decoration: none;
+box-sizing: border-box;
+  z-index: 2;
+
+
+}
+
+.tvarray .button12 {
+padding: 7%;
+border-radius: 20%;
+position: absolute;
+left: 73%;
+top: 36%;
+text-decoration: none;
+box-sizing: border-box;
+  z-index: 2;
+
+
+}
+
+.tvarray .button13 {
+padding: 7%;
+border-radius: 20%;
+position: absolute;
+left: 14%;
+top: 51%;
+text-decoration: none;
+box-sizing: border-box;
+  z-index: 2;
+
+
+}
+
+.tvarray .button14 {
+padding: 7%;
+border-radius: 20%;
+position: absolute;
+left: 35%;
+top: 51%;
+text-decoration: none;
+box-sizing: border-box;
+  z-index: 2;
+
+
+}
+
+.tvarray .button15 {
+padding: 7%;
+border-radius: 20%;
+position: absolute;
+left: 57%;
+top: 51%;
+text-decoration: none;
+box-sizing: border-box;
+  z-index: 2;
+
+
+}
+
+.tvarray .button16 {
+padding: 7%;
+border-radius: 20%;
+position: absolute;
+left: 78%;
+top: 51%;
+text-decoration: none;
+box-sizing: border-box;
+  z-index: 2;
+
+
+}
+
+.tvarray .button17 {
+padding: 7%;
+border-radius: 20%;
+position: absolute;
+left: 8%;
+top: 68%;
+text-decoration: none;
+box-sizing: border-box;
+  z-index: 2;
+
+
+}
+
+.tvarray .button18 {
+padding: 7%;
+border-radius: 20%;
+position: absolute;
+left: 31%;
+top: 68%;
+text-decoration: none;
+box-sizing: border-box;
+  z-index: 2;
+
+
+}
+
+.tvarray .button19 {
+padding: 7%;
+border-radius: 20%;
+position: absolute;
+left: 51%;
+top: 68%;
+text-decoration: none;
+box-sizing: border-box;
+  z-index: 2;
+
+
+}
+
+.tvarray .button19 {
+padding: 7%;
+border-radius: 20%;
+position: absolute;
+left: 51%;
+top: 68%;
+text-decoration: none;
+box-sizing: border-box;
+  z-index: 2;
+ 
+
+}
+
+.tvarray .button20 {
+padding: 7%;
+border-radius: 20%;
+position: absolute;
+left: 75%;
+top: 68%;
+text-decoration: none;
+box-sizing: border-box;
+  z-index: 2;
+
+
+}
+
+.tvarray .button21 {
+padding: 7%;
+border-radius: 20%;
+position: absolute;
+left: 12%;
+top: 84%;
+text-decoration: none;
+box-sizing: border-box;
+  z-index: 2;
+
+
+}
+
+.tvarray .button22 {
+padding: 7%;
+border-radius: 20%;
+position: absolute;
+left: 34%;
+top: 84%;
+text-decoration: none;
+box-sizing: border-box;
+  z-index: 2;
+ 
+
+}
+
+.tvarray .button23 {
+padding: 7%;
+border-radius: 20%;
+position: absolute;
+left: 56%;
+top: 84%;
+text-decoration: none;
+box-sizing: border-box;
+  z-index: 2;
+ 
+
+}
+
+.tvarray .button24 {
+padding: 7%;
+border-radius: 20%;
+position: absolute;
+left: 80%;
+top: 84%;
+text-decoration: none;
+box-sizing: border-box;
+  z-index: 2;
+
+
+}

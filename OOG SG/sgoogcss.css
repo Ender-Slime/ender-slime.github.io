@@ -1,0 +1,645 @@
+html{
+
+ margin: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+     body {
+          background-image: url('ARTASSETSSGOOG/aboutmebackgroundempty.png');
+          background-size: cover;
+          aspect-ratio: .89/1;
+          margin: auto;
+     }
+
+@font-face {
+    font-family: 'Saiba';
+    src: url(SAIBA-45.otf);
+}
+
+@font-face {
+    font-family: 'Glasgow';
+    src: url(Not\ Jam\ Glasgow\ 16.ttf);
+}
+
+@font-face {
+    font-family: 'POP';
+    src: url(FOTPOPHAPPINESSSTRPEXTRABOLD.OTF);
+}
+
+h1, h2, h3, h4 { 
+    font-family: 'Saiba';
+}
+
+h5, h6 {
+  font-family: 'POP';
+}
+p { 
+    font-family: 'Glasgow'; 
+}
+
+a:link {
+  color: rgb(0, 247, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(207, 8, 131);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.header {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  background-image: url("ARTASSETSSGOOG/titlepanel.png");
+  background-position: bottom right,  top left;
+  background-repeat: no-repeat;
+  width: 620px;
+  transform: scale(0.75);
+  transform-origin: top left;
+  aspect-ratio: 5 / 2.9;
+  outline: solid red;
+  z-index: 10;
+}
+
+.header .cd {
+
+  position: absolute;
+  top: 2.5%;
+  left: 2.5%;
+  width: 35%;
+  height: 60%;
+  scale: 120%;
+  background-image: url("ARTASSETSSGOOG/CDnormal.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 7; 
+  pointer-events: none; 
+
+}
+
+.header .homelink {
+ position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 35%;
+  height: 50%;
+    z-index: 7;
+      outline: solid blue;
+}
+
+.header .homelink:hover ~ .cd {
+  background-image: url("ARTASSETSSGOOG/CDhover.png");
+}
+
+.header .titletext {
+  position: absolute;
+  top: 33%;
+  height: 55%;
+  right: 8%;
+  width: 72%;
+
+  font-family: "Saiba";
+  font-size: 5em;
+  color: white;
+  text-align: center;
+  text-shadow: 5px 5px 5px #000000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textbox {
+  position: absolute;
+  top: 0%;
+  left: 64%;
+  width: 487px;
+  height: 443px;
+  scale: 70%;
+  background-image: url(ARTASSETSSGOOG/textbox.png);
+}
+
+.textbox .introtext {
+  position: absolute;
+  top: 15%;
+  left: 13%;
+  width: 380px;
+  font-family: "Glasgow";
+  font-size: 2em;
+  line-height: 75%;
+  text-align: center;
+  color: #000000;
+
+}
+
+.ds {
+position: absolute;
+top: 5%;
+left: 33%   
+
+}
+
+.sgcartridge {
+  background-image: url(ARTASSETSSGOOG/savegameDS.png);
+position: absolute;
+width: 300px;
+height: 300px;
+scale: 75%;
+top: 40%;
+left: 19%; 
+z-index: 4;
+
+}
+
+.sgcartridge:hover {
+filter: invert(80%);
+
+}
+
+.oogcartridge {
+  background-image: url(ARTASSETSSGOOG/outofgameDS.png);
+position: absolute;
+width: 300px;
+height: 300px;
+scale: 75%;
+top: 42%;
+left: 63% ;  
+z-index: 4;
+}
+
+.oogcartridge:hover {
+filter: invert(80%);
+
+}
+
+.textbar {
+position: absolute;
+top: 77%;
+left: 24%;
+background-image: url("ARTASSETSSGOOG/runtextbanner.png");
+width: 936px;
+height: 184px;
+z-index: 6;
+}
+
+.textbar .summary1 {
+    position: absolute;
+    padding: 1%;
+    top: 8%;
+    left: 2%;
+    width: 400px;
+    height: 130px;
+    font-family: "Glasgow";
+    font-size: 1.5em;
+    line-height: 80%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: hsla(0, 100%, 100%, 0.7);
+    
+}
+
+.textbar .summary2 {
+    position: absolute;
+    padding: 1%;
+    top: 8%;
+    right: 2%;
+    width: 400px;
+    height: 130px;
+    font-family: "Glasgow";
+    font-size: 1.5em;
+    line-height: 80%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: hsla(0, 100%, 100%, 0.7);
+   
+}
+
+.gamecase {
+position: absolute;
+top: 100%;
+left: 24.5%   
+
+}
+
+
+
+.theteam {
+position: absolute;
+background-image: url("ARTASSETSSGOOG/introboxmain.png");
+width: 531px;
+height: 199px;
+top: 157%;
+left: 34.5%;
+
+}
+
+.theteam .theteamtext {
+  position: absolute;
+font-family: "POP";
+top: 10%;
+left: 8%;
+width: 450px;
+height: 150px;
+font-size: 4.5em;
+text-align: center;
+color:#000000;
+z-index: 5;
+
+}
+
+.updateblog {
+background-image: url("ARTASSETSSGOOG/upd8sicon.png");
+position: absolute;
+width: 148px;
+height: 151px;
+top: 158%;
+left: 25%;
+}
+
+.updateblog:hover {
+  filter: invert(100%);
+}
+
+.bandcamp {
+  background-image: url("ARTASSETSSGOOG/bandcampicon.png");
+position: absolute;
+width: 148px;
+height: 151px;
+top: 158%;
+right: 27.5%;
+}
+
+
+.bandcamp:hover {
+  filter: invert(100%);
+}
+
+
+.directors {
+  position: absolute;
+  background-image: url("ARTASSETSSGOOG/introboxdirectorrs.png");
+  width: 897px;
+  height: 222px;
+  top: 178%;
+  left: 25%;
+}
+
+.directors .endertext {
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  font-family: "POP";
+  font-size: 3rem;
+  top: -13%;
+  left: 12%;
+  color: white;
+  text-shadow: 5px 5px 5px #000000;
+
+}
+
+.directors .endertext2 {
+  position: absolute;
+  width: 350px;
+  height: 100px;
+  font-family: "pop";
+  font-size: 1.2rem;
+  top: 20%;
+  left: 3%;
+  color: white;
+  text-shadow: 5px 5px 5px #000000;
+  text-align: center;
+  line-height: 90%;
+
+}
+
+.directors .moonytext {
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  font-family: "POP";
+  font-size: 3rem;
+  top: -13%;
+  right: 1%;
+  color: white; 
+  text-shadow: 5px 5px 5px #000000;
+ 
+}
+
+.directors .moonytext2 {
+  position: absolute;
+  width: 350px;
+  height: 100px;
+  font-family: "POP";
+  font-size: 1.1rem;
+  top: 20%;
+  right: 3%;
+  color: white;
+  text-shadow: 5px 5px 5px #000000;
+  text-align: center;
+  line-height: 90%;
+
+}
+
+.team {
+  position: absolute;
+  background-image: url("ARTASSETSSGOOG/introboxteam.png");
+  width: 1303px;
+  height: 222px;
+  top: 200%;
+  left: 15%;
+}
+
+.team .windytext {
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  font-family: "Glasgow";
+  font-size: 3rem;
+  top: -5%;
+  left: 10%;
+  color: white;
+  text-shadow: 5px 5px 5px #000000;
+
+}
+
+.team .windytext2 {
+   position: absolute;
+  width: 350px;
+  height: 100px;
+  font-family: "POP";
+  font-size: 1.2rem;
+  top: 20%;
+  left: 2%;
+  color: white;
+  text-shadow: 5px 5px 5px #000000;
+  text-align: center;
+  line-height: 90%;
+
+}
+
+
+.team .vaportext {
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  font-family: "Glasgow";
+  font-size: 3rem;
+  top: -5%;
+  left: 44%;
+  color: white;
+  text-shadow: 5px 5px 5px #000000;
+
+}
+
+
+.team .vaportext2 {
+   position: absolute;
+  width: 350px;
+  height: 100px;
+  font-family: "POP";
+  font-size: 1.2rem;
+  top: 20%;
+  left: 36.5%;
+  color: white;
+  text-shadow: 5px 5px 5px #000000;
+  text-align: center;
+  line-height: 90%;
+
+}
+
+.team .mayotext {
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  font-family: "Glasgow";
+  font-size: 3rem;
+  top: -5%;
+  right: -2%;
+  color: white;
+  text-shadow: 5px 5px 5px #000000;
+
+}
+
+.team .mayotext2 {
+   position: absolute;
+  width: 350px;
+  height: 100px;
+  font-family: "POP";
+  font-size: 1.2rem;
+  top: 22%;
+  left: 71%;
+  color: white;
+  text-shadow: 5px 5px 5px #000000;
+  text-align: center;
+  line-height: 90%;
+
+}
+
+.flipnoteghost{
+  position: absolute;
+  top: 160%;
+  left: 12%;
+
+  animation-name: pulse;
+         animation-name: floating;
+         animation-iteration-count: infinite;
+         animation-duration: 3s;
+         animation-timing-function: ease-in-out;
+         z-index: 1;
+        animation-direction: reverse;
+   
+        }
+        @keyframes floating {
+          from {
+            transform: translate(0,0px)
+          }
+
+          65% {
+            transform: translate(0,15px)
+          }
+
+          to {
+            transform: translate(0,0px)
+          }
+}
+
+.slimefiishlogo{
+  position: absolute;
+  top: 175%;
+  left: 15%;
+
+  animation-name: pulse;
+         animation-name: floating;
+         animation-iteration-count: infinite;
+         animation-duration: 3s;
+         animation-timing-function: ease-in-out;
+         z-index: 1;
+   
+        }
+        @keyframes floating {
+          from {
+            transform: translate(0,0px)
+          }
+
+          65% {
+            transform: translate(0,15px)
+          }
+
+          to {
+            transform: translate(0,0px)
+          }
+}
+
+.flipnotefrog{
+  position: absolute;
+  top: 160%;
+  left: 80%;
+
+  animation-name: pulse;
+         animation-name: floating;
+         animation-iteration-count: infinite;
+         animation-duration: 3s;
+         animation-timing-function: ease-in-out;
+         z-index: 1;
+        animation-direction: reverse;
+   
+        }
+        @keyframes floating {
+          from {
+            transform: translate(0,0px)
+          }
+
+          65% {
+            transform: translate(0,15px)
+          }
+
+          to {
+            transform: translate(0,0px)
+          }
+}
+
+.slimefiishlogoflipped{
+  position: absolute;
+  top: 175%;
+  left: 73%;
+  animation-name: pulse;
+         animation-name: floating;
+         animation-iteration-count: infinite;
+         animation-duration: 3s;
+         animation-timing-function: ease-in-out;
+         z-index: 1;
+   
+        }
+        @keyframes floating {
+          from {
+            transform: translate(0,0px)
+          }
+
+          65% {
+            transform: translate(0,15px)
+          }
+
+          to {
+            transform: translate(0,0px)
+          }
+        }
+
+
+
+.cordleft {
+position: absolute;
+top: 8%;
+left: -2%;
+z-index: 0;
+}
+
+.cordright {
+position: absolute;
+top: 8%;
+right: 0%;
+z-index: 0;
+}
+
+
+.ender {
+         position: absolute;
+         top: 5%;
+         left: 23.5%;
+         animation-name: pulse;
+         animation-name: floating;
+         animation-iteration-count: infinite;
+         animation-duration: 3s;
+         animation-timing-function: ease-in-out;
+         z-index: 1;
+   
+        }
+        @keyframes floating {
+          from {
+            transform: translate(0,0px)
+          }
+
+          65% {
+            transform: translate(0,15px)
+          }
+
+          to {
+            transform: translate(0,0px)
+          }
+        }
+
+.group1 {
+         position: absolute;
+         top: 42%;
+         left: 10%;
+         animation-name: pulse;
+         animation-name: floating;
+         animation-iteration-count: infinite;
+         animation-duration: 3s;
+         animation-timing-function: ease-in-out;
+         z-index: 1;
+   
+        }
+        @keyframes floating {
+          from {
+            transform: translate(0,0px)
+          }
+
+          65% {
+            transform: translate(0,15px)
+          }
+
+          to {
+            transform: translate(0,0px)
+          }
+        }
+
+ .group2 {
+         position: absolute;
+         top: 42%;
+         left: 10%;
+         animation-name: pulse;
+         animation-name: floating;
+         animation-iteration-count: infinite;
+         animation-duration: 3s;
+         animation-timing-function: ease-in-out;
+         animation-direction: reverse;
+         z-index: 1;
+    
+        }
+        @keyframes floating {
+          from {
+            transform: translate(0,0px)
+          }
+
+          65% {
+            transform: translate(0,15px)
+          }
+
+          to {
+            transform: translate(0,0px)
+          }
+        }
+

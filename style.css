@@ -1,0 +1,91 @@
+  html{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    overflow: auto;
+
+    font-family: "Glasgow", sans-serif;
+    text-align: center;
+    font-size: 25px;
+    line-height: 100%;
+     
+  }
+        body {
+         background-color: rgba(184, 91, 173, 0.318);
+          background-image: url('https://file.garden/YtMQu7utTE5LCcaH/neocities/enderslimesitebackground1920x1080.png');
+          background-size: cover; background-attachment: fixed;
+          aspect-ratio: 16/9;
+          margin: auto;
+        }
+@font-face {
+    font-family: 'Saiba';
+    src: url(SAIBA-45.otf);
+}
+
+@font-face {
+    font-family: 'Glasgow';
+    src: url(Not\ Jam\ Glasgow\ 16.ttf);
+}
+h1, h2, h3, h4 { 
+    font-family: 'Saiba', sans-serif;
+}
+p { 
+    font-family: 'Glasgow', sans-serif; 
+}
+
+.main {
+    background-size: 100%;
+    height: 1080px;
+    width: 1920px;
+    max-height: 1080px;
+    max-width: 1920px;
+    aspect-ratio: 16/9;
+}
+
+.header {
+  font-family: "Saiba";
+  padding: 0.5%;
+  background-color: rgba(184, 91, 173, 0.318);
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  text-shadow: 5px 5px 5px #000000;
+  line-height: 200%;
+}
+
+ @keyframes floating {
+          from {
+            transform: translate(0,0px)
+          }
+
+          65% {
+            transform: translate(0,15px)
+          }
+
+          to {
+            transform: translate(0,0px)
+          }
+        }
+
+
+.visually-hidden {
+  border: 0;
+  clip-path: inset(50%);
+  height: 1px;
+  margin: 0;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.navigation {
+  z-index: 44;
+  background-color:rgb(188, 217, 191); 
+  border: 2px solid rgb(194, 84, 194);
+
+  display:inline-block;
+  padding: 0.5%;
+  position: sticky;
+  top: 0;
+}
