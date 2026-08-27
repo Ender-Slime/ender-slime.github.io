@@ -79,6 +79,7 @@ div.enderslime {
   background-repeat: no-repeat;
   width: 620px;
   aspect-ratio: 5 / 2.9;
+  z-index: 5;
 }
 
 .header .cd {
@@ -137,6 +138,7 @@ div.enderslime {
   background-repeat: no-repeat;
   width: 650px;
   aspect-ratio: 7 / 8;
+  z-index: 4;
 }
 
 .rightphone .text1 {
@@ -167,6 +169,7 @@ div.enderslime {
   background-repeat: no-repeat;
   width: 620px;
   aspect-ratio: 7 / 8;
+  z-index: 3;
 }
 
 .leftphone .text2 {
@@ -195,7 +198,7 @@ div.enderslime {
   top: 5%;
   left: 50%;
   scale: 150%;
-  z-index: -1;
+  z-index: -10;
 }
 
 
@@ -208,7 +211,7 @@ div.osirah {
   animation-iteration-count: infinite;
   animation-duration: 3s;
   animation-timing-function: ease-in-out;
-  z-index: -1;
+  z-index: -3;
   
 }
 @keyframes floating {
@@ -234,7 +237,7 @@ div.dirkjane {
   animation-iteration-count: infinite;
   animation-duration: 3s;
   animation-timing-function: ease-in-out;
-  z-index: -1;
+  z-index: -4;
 }
 @keyframes floating {
           from {
@@ -258,7 +261,7 @@ div.nialah {
   animation-iteration-count: infinite;
   animation-duration: 3s;
   animation-timing-function: ease-in-out;
-  z-index: -1;
+  z-index: -5;
 }
 @keyframes floating {
           from {
@@ -283,6 +286,7 @@ div.nialah {
    transform: scaleX(-1);
   top: 125%;
   right: 10%;
+  z-index: -6;
 }
 
 .pixelslime3 .romeocredit {
@@ -292,6 +296,7 @@ font-family: "Glasgow";
   text-align: center;
   transform: scaleX(-1);
   line-height: 88%;
+  z-index: -6;
 
 }
 
@@ -307,7 +312,7 @@ font-family: "Glasgow";
   background-repeat: no-repeat;
   width: 1000px;
   aspect-ratio: 9 / 2;
-  z-index: 6;
+  z-index: 20;
 }
 
 .socials .bar {
@@ -328,7 +333,6 @@ left: 14.5%;
 top: 19%;
 text-decoration: none;
 box-sizing: border-box;
-  z-index: 2;
 }
 
 .socials .button1:hover ~ .bar {
@@ -343,7 +347,7 @@ left: 31.5%;
 top: 35%;
 text-decoration: none;
 box-sizing: border-box;
-  z-index: 2;
+  z-index: 7;
 }
 
 .socials .button2:hover ~ .bar {
@@ -358,7 +362,8 @@ left: 43%;
 top: 19%;
 text-decoration: none;
 box-sizing: border-box;
-  z-index: 2;
+  z-index: 8;
+
 }
 
 .socials .button3:hover ~ .bar {
@@ -373,7 +378,7 @@ left: 60.7%;
 top: 34%;
 text-decoration: none;
 box-sizing: border-box;
-  z-index: 2;
+  z-index: 9;
 }
 
 .socials .button4:hover ~ .bar {
@@ -388,7 +393,7 @@ left: 72%;
 top: 19%;
 text-decoration: none;
 box-sizing: border-box;
-  z-index: 2;
+  z-index: 10;
 }
 
 .socials .button5:hover ~ .bar {
@@ -401,6 +406,7 @@ box-sizing: border-box;
   scale: 200%;
   top: -60%;
   left: 10%;
+  z-index: -10;
 }
 
 .openphone {
@@ -413,6 +419,7 @@ box-sizing: border-box;
   background-repeat: no-repeat;
   width: 1000px;
   aspect-ratio: 2 / 2;
+  z-index: 6;
 }
 
 
@@ -466,6 +473,7 @@ box-sizing: border-box;
   background-repeat: no-repeat;
   width: 600px;
   aspect-ratio: 5 / 2.9;
+  z-index: 7;
 }
 
 .finalphone .text5 {

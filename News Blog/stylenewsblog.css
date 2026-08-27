@@ -40,7 +40,6 @@ html{
   transform: scale(0.75);
   transform-origin: top left;
   aspect-ratio: 5 / 2.9;
-
   z-index: 10;
 }
 
@@ -55,7 +54,6 @@ html{
   background-image: url("ASSETSNEWSBLOG/CDnormal.png");
   background-size: contain;
   background-repeat: no-repeat;
-  z-index: 7; 
   pointer-events: none; 
 
 }
@@ -66,7 +64,6 @@ html{
   left: 0%;
   width: 35%;
   height: 50%;
-    z-index: 7;
   
 }
 
@@ -241,7 +238,7 @@ html{
          animation-iteration-count: infinite;
          animation-duration: 3s;
          animation-timing-function: ease-in-out;
-       
+          z-index: 1;
         }
         @keyframes floating {
           from {
@@ -285,6 +282,7 @@ html{
 .mario {
   position: relative;
   bottom: 0%;
+  z-index: 0;
 }
 
 
