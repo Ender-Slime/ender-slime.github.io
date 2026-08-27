@@ -54,6 +54,7 @@ div.enderslime {
           top: -20%;
           left: 25%;
           overflow: hidden;
+          z-index: -1;
         }
        @keyframes floating {
           from {
@@ -194,6 +195,7 @@ div.enderslime {
   top: 5%;
   left: 50%;
   scale: 150%;
+  z-index: -1;
 }
 
 
@@ -206,6 +208,7 @@ div.osirah {
   animation-iteration-count: infinite;
   animation-duration: 3s;
   animation-timing-function: ease-in-out;
+  z-index: -1;
   
 }
 @keyframes floating {
@@ -231,6 +234,7 @@ div.dirkjane {
   animation-iteration-count: infinite;
   animation-duration: 3s;
   animation-timing-function: ease-in-out;
+  z-index: -1;
 }
 @keyframes floating {
           from {
@@ -254,6 +258,7 @@ div.nialah {
   animation-iteration-count: infinite;
   animation-duration: 3s;
   animation-timing-function: ease-in-out;
+  z-index: -1;
 }
 @keyframes floating {
           from {
